@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { connect } from  'react-redux';
+import React from 'react';
+import Navbar from './Navbar';
 
-export default class Layout extends Component {
-  render() {
+
+export default function Layout(props) {
     return (
-      <div className='container'>
-        <h1 className='text-center'>Test</h1>
+      <div>
+        <Navbar />
       </div>
-    )
-  }
+    );
 }
