@@ -19,6 +19,15 @@ nav.navbar {
   border: none;
 }
 
+.navbar-nav > li > a {
+  color:whitesmoke !important;
+  text-align: center;
+}
+
 nav #logo {
   width: 100%;
+}
+
+button.navbar-toggle {
+  border:none;
 }
